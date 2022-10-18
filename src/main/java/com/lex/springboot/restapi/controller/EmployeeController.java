@@ -16,7 +16,6 @@ import java.util.List;
 @RequestMapping("/api/employees")
 public class EmployeeController {
 
-    @Autowired
     private final EmployeeService employeeService;
 
     @Autowired
